@@ -1,76 +1,70 @@
-body
-{
-    
+body {
     font-family: "Josefin Sans", "Bitter";
     background-image:url(bg.jpg);
     background-size: cover;
-
 }
-.all
-{
+
+.class {
+	color: #cfa205
+}
+
+.all {
     width: 1020px;
     margin: auto;
     background-color:white;
-
 }
-header
-{
+
+header {
     background-color:#120d04;
     width: 1020px;
     height: 320px;
-
 }
-h1
-{
+
+h1 {
     color: #cfa205;
     font-size: 130px;
     text-align: center;
 }
-h2
-{
+
+h2 {
     color: #cfa205;
     text-align: center; 
     height: 60px;
     padding-top: 50px;
     font-size: 20px;
-    
 }
 
-
-nav ul
-{
+nav ul {
     width: 1020px;
     height: 60px;
     display: inline-flex;
     padding-left: 200px;
     padding-top: 20px;
-
-
 }
-nav ul li
-{
+
+nav ul li {
     padding-right: 25px;
-   
 }
 
-.iconbar
-{
-    background-color: #e7e7e7;
+.iconbar {
+    background-color: #e8e8e8;
     width: 1020px;
     height: 60px;
-
-
 }
-a
-{
+
+a {
     text-decoration: none;
     color: white;
 }
-.iconbar
-{
-    background-color: #e7e7e7;
-    width: 1020px;
-    height: 60px;
-    
+
+main div {
+	color : #7a7a7a;
+	text-decoration: bold;
+	font-size: 1.5em;
+	text-align: center;
+	padding: 1em;
 }
 
+section {
+	width: 30%;
+}
