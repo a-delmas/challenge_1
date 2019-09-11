@@ -4,35 +4,52 @@ body {
 	background-size: cover;
 }
 
-header, main, footer, div.all
-{
+header, main, div.all {
 	width: 1020px;
 	margin: auto;
 }
-.home{
+.home {
 	font-size:#cfa205;
 } 
-a {
+ul {
 	display: inline-block;
 	width: 1020px;
 	height: 60px;
 	background-color: #120D04;
-	margin: 19px;
+	/* margin: 19px; */
 	text-decoration: none;
-	font-size: 2em;
+	font-size: 1em;
 	border: 1px solid black;
-	border-block: 1020px;
-	border-size: 32px;
+	/* border-block: 1020px;
+	border-size: 32px; */
 	font-size: white;
 }
 
-/* header {
-	color : #cfa205;
-	font-size: 133px;
+ul, h1, h2 {
+	background-color: #120D04;
+}
+li {
+	width: 98%;
+	text-align: center;
+	/* padding: 2em; */
 }
 
+#title {
+	color : #cfa205;
+	font-size: 133px;
+	text-align: center;
+	margin-bottom: .5em;
+	margin-top: .5em;
+}
+h2 {
+	color: #cfa205;
+	font-size: 1em;
+	text-align: center;
+
+}
 main {
 	color: #7a7a7a;
+	background-color: white;
 }
 
 .fab {
