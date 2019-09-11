@@ -2,8 +2,12 @@ body {
 	font-family: "Josefin Sans", "Bitter";
 	background-image:url(bg.jpg);
 	background-size: cover;
-	width: 1400px;
-	height: 1010px;
+}
+
+header, main, footer, div.all
+{
+	width: 1020px;
+	margin: auto;
 }
 .home{
 	font-size:#cfa205;
