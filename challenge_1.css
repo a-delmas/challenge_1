@@ -30,6 +30,13 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
+	width: 1400px;
+	height: 1010px;
+}
+.all
+{
+	width: 1020px;
+	background-color: white;
 }
 ol, ul {
 	list-style: none;
@@ -55,6 +62,9 @@ body {
 nav {
 	display: inline-block;
 	text-align: center;
+	width: 1020px;
+	height: 320px;
+	background-color: #120D04;
 }
 
 header {
@@ -68,4 +78,29 @@ main {
 .fab {
 	color:#e8e8e8;
 	border-size: 14px;
+}
+.iconbar
+{
+	width: 1020px;
+	height: 60px;
+	background-color: #e7e7e7;
+	text-align: center;
+}
+nav ul
+{
+	display: inline-flex;
+	
+}
+nav ul li
+{
+	margin: 20px;
+}
+nav ul li a
+{
+	text-decoration: none;
+
+}
+header h1
+{
+	font-size: 90px;
 }
