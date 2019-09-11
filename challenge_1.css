@@ -47,3 +47,25 @@ table {
 	border-spacing: 0;
 }
 
+body {
+	font-family: "Josefin Sans", "Bitter";
+	background-image:url(bg.jpg);
+}
+
+nav {
+	display: inline-block;
+	text-align: center;
+}
+
+header {
+	color : #cfa205;
+}
+
+main {
+	color: #7a7a7a;
+}
+
+.fab {
+	color:#e8e8e8;
+	border-size: 14px;
+}
