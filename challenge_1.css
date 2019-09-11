@@ -50,7 +50,9 @@ nav ul li {
     background-color: #e8e8e8;
     width: 1020px;
 	height: 60px;
-	text-align: center;
+    text-align: center;
+    font-size: 45px;
+    
 }
 
 a {
@@ -68,5 +70,23 @@ main div {
 
 section {
 	width: 20%;
-	display: inline-block;
+	display: inline-flex;
+}
+.home a
+{
+    color: #cfa205;
+}
+.first, .second, .third
+{
+margin: 30px;
+}
+.image1
+{
+    width: 260px;
+    height: 195px;
+}
+section p
+{
+    width: 260px;
+    height: 480px;
 }
