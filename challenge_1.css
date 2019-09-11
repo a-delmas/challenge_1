@@ -4,10 +4,6 @@ body {
     background-size: cover;
 }
 
-.class {
-	color: #cfa205
-}
-
 .all {
     width: 1020px;
     margin: auto;
@@ -52,8 +48,7 @@ nav ul li {
 	height: 60px;
     text-align: center;
     font-size: 45px;
-    
-}
+    }
 
 a {
     text-decoration: none;
@@ -65,28 +60,37 @@ main div {
 	text-decoration: bold;
 	font-size: 1.5em;
 	text-align: center;
-	padding: 1em;
+	padding: 2em;
 }
 
 section {
 	width: 20%;
 	display: inline-flex;
 }
-.home a
-{
+
+.home a {
     color: #cfa205;
 }
-.first, .second, .third
-{
-margin: 30px;
+
+.first, .second, .third {
+	margin: 30px;
 }
-.image1
-{
+
+.image1, .image2, .image3 {
     width: 260px;
     height: 195px;
 }
-section p
-{
+
+section p {
     width: 260px;
-    height: 480px;
+	height: 480px;
+	color : #7a7a7a;
+	text-decoration: bold;
+}
+
+section h3 {
+	text-decoration: bold;
+	font-size: black;
+	font-size: 16px;
+	padding: 1em;
 }
